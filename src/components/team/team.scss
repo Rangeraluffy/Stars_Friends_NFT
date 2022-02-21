@@ -1,0 +1,69 @@
+.team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0px;
+  }
+
+  .cards {
+    display: flex;
+
+    .card {
+      margin: 20px;
+      box-shadow: 0 3px 5px #000;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      animation: body 2s infinite alternate-reverse;
+
+      @keyframes body {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-20px);
+        }
+        0% {
+          transform: translateY(0);
+        }
+      }
+    }
+
+    h2 {
+      font-size: 2em;
+      padding-top: 10px;
+      text-transform: uppercase;
+    }
+
+    .bg-image img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 110%, 0 70%);
+    }
+
+    .pic img {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      margin-top: -90px;
+      position: relative;
+    }
+
+    .info h3 {
+      color: black;
+      font-size: 1.5em;
+      padding: 10px 0;
+    }
+
+    .info p {
+      font-size: 1.2em;
+      padding: 10px 20px;
+    }
+  }
+}
