@@ -3,7 +3,10 @@ import "./about.scss"
 
 export default function About() {
   return (
+    
     <div className="about">
+    <img className="about_bg_top" src="assets/cloud_top.png" alt=""/>
+    <div className="background_global">
         <div className="container">
             <div className="about_flex_container">
                 <div className="about_img">
@@ -17,6 +20,8 @@ export default function About() {
                 </div>
             </div>
         </div>
+    </div>
+        <img className="about_bg_top" src="assets/cloud_bot.png" alt=""/>
     </div>
   )
 }
