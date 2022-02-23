@@ -14,10 +14,18 @@ export default function Discord() {
               join the #starsfriends it’s here. Join us to get the news as soon
               as possible and follow our latest announcements.
             </p>
-            <div className="btn_discord">
-              <button href="discord.gg/ZgbavxQB7J" target="_blank">
-                Join Our discord
-              </button>
+            <div class="btn-cont">
+              <a
+                class="btn"
+                href="https://discord.gg/ZgbavxQB7J"
+                target="_blank"
+              >
+                Join Discord
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+                <span class="line-4"></span>
+              </a>
             </div>
           </div>
         </div>

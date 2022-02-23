@@ -23,7 +23,7 @@ export default function Navbar() {
               </a>
             </div>
             <div className="navbar_link_logo">
-              <a href="" target="_blank">
+              <a href="https://opensea.io/StarsFriends" target="_blank">
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"

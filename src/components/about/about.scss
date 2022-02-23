@@ -1,9 +1,11 @@
+@import "../../global.scss";
+
 .about {
   padding: 150px 0px;
   color: white;
 
   .background_global {
-    background-color: #141948;
+    background-color: $background;
     padding: 100px 0px;
   }
 
@@ -19,19 +21,41 @@
     align-items: center;
     display: flex;
 
+    @include computer {
+      display: block;
+    }
+
+    @include mobile {
+      font-size: 0.8em;
+    }
+
     .about_img {
       width: 45%;
       padding-right: 70px;
 
+      @include computer {
+        text-align: center;
+        width: 100%;
+      }
+
       img {
         max-width: 100%;
         border-radius: 25px;
+
+        @include computer {
+          max-width: 50%;
+        }
       }
     }
 
     .about_content {
       width: 60%;
       text-align: center;
+
+      @include computer {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       p {
         text-align: justify;

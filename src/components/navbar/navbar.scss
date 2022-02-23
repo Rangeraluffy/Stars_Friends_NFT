@@ -1,9 +1,11 @@
+@import "../../global.scss";
+
 .navbar {
   position: fixed;
   top: 0;
   z-index: 1000;
   color: white;
-  background-color: #141948;
+  background-color: $background;
   position: fixed;
   left: 0;
   right: 0;

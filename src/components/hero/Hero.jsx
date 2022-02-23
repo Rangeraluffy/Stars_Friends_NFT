@@ -78,9 +78,15 @@ function Hero() {
       <div className="hero_container">
         <img src="assets/stars_friends_logo.png" alt="" />
       </div>
-      <button href="discord.gg/ZgbavxQB7J" target="_blank">
-        Join Our discord
-      </button>
+      <div class="btn-cont">
+        <a class="btn" href="https://discord.gg/ZgbavxQB7J" target="_blank">
+          Join Discord
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+          <span class="line-4"></span>
+        </a>
+      </div>
     </div>
   );
 }

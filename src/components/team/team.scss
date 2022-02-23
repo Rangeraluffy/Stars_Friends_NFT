@@ -1,8 +1,10 @@
+@import "../../global.scss";
+
 .team {
   padding: 150px 0px;
 
   .background_global {
-    background-color: #141948;
+    background-color: $background;
     padding: 100px 0px;
   }
 

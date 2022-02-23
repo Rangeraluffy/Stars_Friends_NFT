@@ -1,8 +1,10 @@
+@import "../../global.scss";
+
 .roadmap {
   padding: 150px 0px;
 
   .roadmap_bg {
-    background-color: #141948;
+    background-color: $background;
     padding: 100px 0px;
   }
 

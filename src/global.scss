@@ -1,0 +1,26 @@
+$background: #141948;
+$width: 768px;
+$width_computer: 1024px;
+$width_phone: 1380px;
+$width_mobileS: 425px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+@mixin computer {
+  @media (max-width: #{$width_computer}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: #{$width_phone}) {
+    @content;
+  }
+}
+@mixin mobileS {
+  @media (max-width: #{$width_mobileS}) {
+    @content;
+  }
+}
