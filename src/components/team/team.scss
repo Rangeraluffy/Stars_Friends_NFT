@@ -19,9 +19,6 @@
   h1 {
     font-size: 7em;
     line-height: calc(20px + 20vh);
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
-      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
     font-family: "Sacramento", cursive;
     text-align: center;
     animation: blink 12s infinite;
@@ -88,7 +85,7 @@
   .cards {
     display: flex;
     padding-top: 70px;
-    color: white;
+    color: #111526;
 
     .card {
       margin: 20px;
@@ -98,7 +95,7 @@
       background: linear-gradient(
         180deg,
         rgba(31, 48, 101, 0) 0%,
-        #3340a8 100%
+        #a0977c 100%
       );
       padding: 15px;
     }
