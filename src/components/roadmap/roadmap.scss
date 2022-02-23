@@ -1,6 +1,9 @@
 .roadmap {
+  padding: 150px 0px;
+
   .roadmap_bg {
     background-color: #141948;
+    padding: 100px 0px;
   }
 
   .road_bg_top {
@@ -80,7 +83,7 @@
 
   .roadmap_content {
     text-align: justify;
-    margin: 150px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     background: linear-gradient(180deg, rgba(31, 48, 101, 0) 0%, #3340a8 100%);
     padding: 50px;
     border-radius: 50px;
@@ -97,7 +100,7 @@
     }
     p {
       padding: 30px;
-      font-size: 1.5em;
+      font-size: 1.3em;
       line-height: 40px;
 
       span {
