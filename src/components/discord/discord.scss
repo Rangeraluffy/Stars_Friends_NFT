@@ -1,9 +1,81 @@
 .discord {
+  background-color: #141948;
+
+  padding-bottom: 100px;
+  .discord_bg {
+    background: linear-gradient(180deg, rgba(31, 48, 101, 0) 0%, #3340a8 100%);
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 50px;
+  }
   h1 {
-    font-size: 4em;
-    text-transform: uppercase;
+    font-size: 7em;
+    line-height: calc(20px + 20vh);
+    text-shadow: 0 0 5px #f8e015, 0 0 15px #f8e015, 0 0 20px #f8e015,
+      0 0 40px #f8e015, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
     text-align: center;
-    padding: 100px 0px;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+    animation: body 2s infinite alternate-reverse;
+  }
+
+  @-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #70c6f7;
+      text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+      text-shadow: 0 0 5px #f8e015, 0 0 15px #f8e015, 0 0 20px #f8e015,
+        0 0 40px #f8e015, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #70c6f7;
+      text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+      text-shadow: 0 0 5px #f8e015, 0 0 15px #f8e015, 0 0 20px #f8e015,
+        0 0 40px #f8e015, 0 0 60px #ff0000, 0 0 10px #f8e015, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+
+  @keyframes body {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+    0% {
+      transform: translateY(0);
+    }
   }
 
   p {
@@ -14,11 +86,12 @@
 
   .btn_discord {
     padding: 50px 0;
+    text-align: center;
 
     button {
-      background-color: #171c30;
+      background-color: #14f1d9;
       border-radius: 50px;
-      color: #ece1c0;
+      color: black;
       font-size: 2em;
       padding: 16px 32px;
       border: none;

@@ -2,12 +2,23 @@
   text-align: center;
   margin: auto;
   padding: 50px;
-  background-image: url(https://public.joomeo.com/files/6213c8200ca2d);
+  margin-top: 80px;
+
+  .hero_banner_background {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+    position: fixed;
+  }
 
   button {
-    background-color: #171c30;
+    background-color: #14f1d9;
     border-radius: 50px;
-    color: #ece1c0;
+    color: #091744;
     font-size: 2em;
     padding: 16px 32px;
     border: none;
@@ -25,6 +36,7 @@
       width: 30%;
       animation: body 2s infinite alternate-reverse;
       position: relative;
+      z-index: 1005;
 
       @keyframes body {
         0% {
