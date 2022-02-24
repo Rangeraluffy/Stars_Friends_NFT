@@ -12,7 +12,7 @@ console.log(process.env);
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize(`$process.env.REACT_APP_GA_KEY}`);
+    ReactGA.initialize("UA-221409640-1");
 
     ReactGA.pageview("/");
   }, []);
