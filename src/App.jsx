@@ -7,16 +7,16 @@ import Team from "./components/team/Team";
 import Discord from "./components/discord/Discord";
 import Footer from "./components/footer/Footer";
 import ReactGA from "react-ga";
-
-const TRACKING_ID = `${process.env.GA_KEY}`;
-ReactGA.initialize(TRACKING_ID);
-
-ReactGA.event({
-  category: "User",
-  action: "Created an Account",
-});
+import { useEffect } from "react";
+console.log(process.env);
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(`$process.env.REACT_APP_GA_KEY}`);
+
+    ReactGA.pageview("/");
+  }, []);
+
   return (
     <div className="app">
       <Navbar />
