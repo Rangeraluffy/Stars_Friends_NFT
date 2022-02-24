@@ -11,15 +11,14 @@ export default function Team() {
           <div className="cards">
             <div className="card">
               <div className="pic">
-                <img src="assets/alex.png" alt="" />
+                <img src="assets/alex.jpg" alt="" />
               </div>
               <div className="info">
                 <h2>Alexandre</h2>
                 <h3>FOUNDER / ENGINEER / DESIGNER </h3>
                 <p>
-                  Web2 front end developer jumping into the Web3 world. Loves
-                  fitness, spending time with friends and my girlfriend and
-                  playing video games.
+                  Web2 front developer jumping into the Web3 world. Number #1
+                  fan of MariKage. Addicted to Japan, Manga and video games.
                 </p>
               </div>
             </div>
