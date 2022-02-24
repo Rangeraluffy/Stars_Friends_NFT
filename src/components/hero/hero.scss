@@ -175,7 +175,8 @@
       animation: body 2s infinite alternate-reverse;
       position: relative;
       z-index: 1005;
-      margin-bottom: 15px;
+      margin-bottom: 30px;
+      margin-top: 150px;
 
       @include tablet {
         margin-bottom: 60px;

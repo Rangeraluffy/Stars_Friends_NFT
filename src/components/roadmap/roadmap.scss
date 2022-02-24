@@ -38,7 +38,7 @@
   h1 {
     font-size: 7em;
     line-height: calc(20px + 20vh);
-    color: #111526;
+    color: $color-text;
     text-align: center;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
@@ -49,49 +49,6 @@
     }
   }
 
-  @-webkit-keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #70c6f7;
-      text-shadow: none;
-    }
-
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-      text-shadow: 0 0 5px #2c5fab, 0 0 15px #2c5fab, 0 0 20px #2c5fab,
-        0 0 40px #2c5fab, 0 0 60px #2b7dc3, 0 0 10px #ff8d00, 0 0 98px #2b7dc3;
-      color: #fff6a9;
-    }
-  }
-
-  @keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #70c6f7;
-      text-shadow: none;
-    }
-
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-      text-shadow: 0 0 5px #2c5fab, 0 0 15px #2c5fab, 0 0 20px #2c5fab,
-        0 0 40px #2c5fab, 0 0 60px #2b7dc3, 0 0 10px #ff8d00, 0 0 98px #2b7dc3;
-      color: #fff6a9;
-    }
-  }
   @keyframes body {
     0% {
       transform: translateY(0);
@@ -106,10 +63,10 @@
 
   .roadmap_content {
     text-align: justify;
-    border-top: 1px solid #adc5e0;
+    border-top: 1px solid $cloud-text;
     border-top-width: 4px;
     padding: 50px;
-    color: #111526;
+    color: $color-text;
 
     @include tablet {
       padding: 25px;
