@@ -38,6 +38,10 @@
       letter-spacing: 2px;
       -webkit-font-smoothing: antialiased;
 
+      @include iphoneX {
+        padding: 20px 35px;
+      }
+
       &:hover {
         border: none;
 
@@ -173,8 +177,10 @@
       position: relative;
       z-index: 1005;
       margin-bottom: 15px;
+
       @include tablet {
         margin-bottom: 60px;
+        width: 60%;
       }
 
       @keyframes body {

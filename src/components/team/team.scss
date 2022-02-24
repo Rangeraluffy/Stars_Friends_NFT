@@ -37,6 +37,10 @@
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
     animation: body 2s infinite alternate-reverse;
+
+    @include iphoneX {
+      font-size: 4em;
+    }
   }
 
   @-webkit-keyframes blink {
@@ -120,7 +124,12 @@
       padding-top: 10px;
       text-transform: uppercase;
 
+      @include iphoneX {
+        font-size: 2.55em;
+      }
+
       @include tablet {
+        margin-top: 20px;
         font-size: 3em;
       }
     }
@@ -147,8 +156,13 @@
       font-size: 1.5em;
       padding: 10px 0;
 
+      @include iphoneX {
+        font-size: 1.5em;
+      }
+
       @include tablet {
-        font-size: 2.5em;
+        margin-top: 20px;
+        font-size: 2.2em;
       }
     }
 
@@ -159,6 +173,10 @@
 
       @include tablet {
         font-size: 2em;
+      }
+
+      @include iphoneX {
+        font-size: 1.5em;
       }
     }
   }

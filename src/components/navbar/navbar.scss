@@ -10,6 +10,10 @@
   left: 0;
   right: 0;
 
+  @include iphoneX {
+    right: 1;
+  }
+
   .navbar_container {
     align-items: center;
     justify-content: space-between;
@@ -27,6 +31,10 @@
       text-transform: uppercase;
       text-align: center;
       cursor: pointer;
+
+      @include tablet {
+        font-size: 1.2em;
+      }
     }
   }
 

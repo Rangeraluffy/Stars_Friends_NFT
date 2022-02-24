@@ -40,6 +40,10 @@
     border-top: 1px solid #adc5e0;
     border-top-width: 4px;
     border-bottom: 4px solid #adc5e0;
+
+    @include tablet {
+      margin-top: 0zpx;
+    }
   }
   h1 {
     font-size: 7em;
@@ -51,7 +55,11 @@
     animation: body 2s infinite alternate-reverse;
 
     @include tablet {
-      font-size: 5em;
+      font-size: 4em;
+    }
+
+    @include iphoneX {
+      font-size: 4em;
     }
   }
 
@@ -117,6 +125,10 @@
     line-height: 50px;
     padding-bottom: 70px;
     color: #111526;
+
+    @include tablet {
+      font-size: 2em;
+    }
   }
 
   .btn-cont {
@@ -127,12 +139,15 @@
       padding: 20px 70px;
       border: 1px solid #111526;
       color: #111526;
-
       font-size: 2em;
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 2px;
       -webkit-font-smoothing: antialiased;
+
+      @include iphoneX {
+        padding: 20px 7px;
+      }
 
       &:hover {
         border: none;
