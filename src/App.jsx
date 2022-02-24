@@ -6,6 +6,15 @@ import Roadmap from "./components/roadmap/Roadmap";
 import Team from "./components/team/Team";
 import Discord from "./components/discord/Discord";
 import Footer from "./components/footer/Footer";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = `${process.env.GA_KEY}`;
+ReactGA.initialize(TRACKING_ID);
+
+ReactGA.event({
+  category: "User",
+  action: "Created an Account",
+});
 
 function App() {
   return (
