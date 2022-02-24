@@ -17,6 +17,7 @@ export default function Roadmap() {
               community to reach enough audience.
             </p>
             <p>
+              <img className="validate" src="assets/validate.png" alt="" />
               <span>2. Finalize the website :</span> The website is still under
               construction, we would like to make it a place where anyone
               interested in becoming a Stars Friends can get all the information
@@ -82,14 +83,14 @@ export default function Roadmap() {
             </p>
             <p>
               <span>3. Charity :</span> Keep on sharing donations to charity,
-              this is one big thing of this project of helping others..
+              this is one big thing of this project of helping others.
             </p>
             <p>
               <span>4. Loyalty program :</span> We would like to build a loyalty
               program for NFTs holders. The more you have NFTs or the longer
               you’ll hold them in your pocket will make you eligible for the
               loyalty rewards (we are still setting up the levels, and rewards,
-              to be communicated later on)
+              to be communicated later on).
             </p>
           </div>
         </div>
