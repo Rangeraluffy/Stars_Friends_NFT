@@ -8,7 +8,6 @@ import Discord from "./components/discord/Discord";
 import Footer from "./components/footer/Footer";
 import ReactGA from "react-ga";
 import { useEffect } from "react";
-console.log(process.env);
 
 function App() {
   useEffect(() => {
