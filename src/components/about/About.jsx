@@ -4,12 +4,16 @@ import "./about.scss";
 export default function About() {
   return (
     <div className="about">
-      <img className="about_bg_top" src="assets/cloud_top.png" alt="" />
+      <img
+        className="about_bg_top"
+        src="assets/cloud_top.png"
+        alt="cloud_top_side_about"
+      />
       <div className="background_global">
         <div className="container">
           <div className="about_flex_container">
             <div className="about_img">
-              <img src="assets/Stars_Friends_GIF.gif" alt="" />
+              <img src="assets/Stars_Friends_GIF.gif" alt="stars_friends_gif" />
             </div>
             <div className="about_content">
               <h1 className="title">What is Stars Friends ?</h1>
@@ -28,7 +32,11 @@ export default function About() {
           </div>
         </div>
       </div>
-      <img className="about_bg_top" src="assets/cloud_bot.png" alt="" />
+      <img
+        className="about_bg_top"
+        src="assets/cloud_bot.png"
+        alt="cloud_bot_side_about"
+      />
     </div>
   );
 }

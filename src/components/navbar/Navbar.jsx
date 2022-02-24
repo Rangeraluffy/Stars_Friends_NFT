@@ -11,7 +11,11 @@ export default function Navbar() {
           </div>
           <div className="navbar_link">
             <div className="navbar_link_logo">
-              <a href="https://twitter.com/StarsFriendsNFT" target="_blank">
+              <a
+                href="https://twitter.com/StarsFriendsNFT"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 400 400"
@@ -23,7 +27,11 @@ export default function Navbar() {
               </a>
             </div>
             <div className="navbar_link_logo">
-              <a href="https://opensea.io/StarsFriends" target="_blank">
+              <a
+                href="https://opensea.io/StarsFriends"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"

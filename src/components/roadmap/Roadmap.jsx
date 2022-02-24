@@ -4,7 +4,11 @@ import "./roadmap.scss";
 export default function Roadmap() {
   return (
     <div className="roadmap">
-      <img className="road_bg_top" src="assets/cloud_top.png" alt="" />
+      <img
+        className="road_bg_top"
+        src="assets/cloud_top.png"
+        alt="cloud_top_side_roadmap"
+      />
       <div className="roadmap_bg">
         <div className="container">
           <h1>Roadmap</h1>
@@ -17,7 +21,11 @@ export default function Roadmap() {
               community to reach enough audience.
             </p>
             <p>
-              <img className="validate" src="assets/validate.png" alt="" />
+              <img
+                className="validate"
+                src="assets/validate.png"
+                alt="validate_roadmap"
+              />
               <span>2. Finalize the website :</span> The website is still under
               construction, we would like to make it a place where anyone
               interested in becoming a Stars Friends can get all the information
@@ -95,7 +103,11 @@ export default function Roadmap() {
           </div>
         </div>
       </div>
-      <img className="road_bg_top" src="assets/cloud_bot.png" alt="" />
+      <img
+        className="road_bg_top"
+        src="assets/cloud_bot.png"
+        alt="cloud_bot_side_roadmap"
+      />
     </div>
   );
 }
