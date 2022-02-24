@@ -111,6 +111,16 @@
     padding: 50px;
     color: #111526;
 
+    @include tablet {
+      padding: 25px;
+      margin: 0px 20px;
+    }
+
+    @include iphoneX {
+      padding: 25px;
+      margin: 0px 20px;
+    }
+
     h2 {
       font-weight: 700;
       text-transform: uppercase;
@@ -125,7 +135,7 @@
       }
 
       @include iphoneX {
-        font-size: 2.5em;
+        font-size: 2em;
       }
     }
     p {

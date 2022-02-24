@@ -4,8 +4,8 @@ import "./navbar.scss";
 export default function Navbar() {
   return (
     <nav id="home" className="navbar">
-      <div className="container">
-        <div className="navbar_container">
+      <div className="navbar_container">
+        <div className="container">
           <div className="navbar_title">
             <h1>Stars Friends</h1>
           </div>

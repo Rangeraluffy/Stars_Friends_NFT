@@ -19,14 +19,13 @@
     margin-bottom: -5px;
 
     @include tablet {
-      height: 70px;
-      margin-bottom: -7px;
-      margin-top: -7px;
+      width: auto;
+      margin-bottom: -20px;
     }
 
     @include iphoneX {
-      margin-bottom: -5px;
       width: auto;
+      margin-bottom: -10px;
     }
   }
 
@@ -63,7 +62,8 @@
       text-align: center;
 
       @include tablet {
-        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       @include computer {
@@ -77,7 +77,7 @@
         font-size: 1.5em;
 
         @include tablet {
-          font-size: 1.5em;
+          font-size: 2.2em;
         }
 
         @include iphoneX {
@@ -89,12 +89,12 @@
         font-size: 3em;
         padding: 16px 0;
 
-        @include iphoneX {
-          font-size: 4em;
-        }
-
         @include tablet {
           padding-top: 50px;
+          font-size: 5em;
+        }
+
+        @include iphoneX {
           font-size: 4em;
         }
       }

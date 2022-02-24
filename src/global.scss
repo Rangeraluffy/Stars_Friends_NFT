@@ -1,7 +1,7 @@
 $background: #f6f3eb;
-$width: 768px;
+$width: 810px;
 $computer: 1080px;
-$iphoneX: 375px;
+$iphoneX: 420px;
 
 @mixin tablet {
   @media (max-width: #{$width}) {

@@ -3,7 +3,6 @@
 .hero_banner {
   text-align: center;
   margin: auto;
-  margin-top: 80px;
 
   .hero_banner_background {
     background-repeat: no-repeat;
@@ -39,7 +38,7 @@
       -webkit-font-smoothing: antialiased;
 
       @include iphoneX {
-        padding: 20px 35px;
+        padding: 20px 30px;
       }
 
       &:hover {
@@ -181,6 +180,11 @@
       @include tablet {
         margin-bottom: 60px;
         width: 60%;
+        margin-top: 15%;
+      }
+
+      @include iphoneX {
+        margin-top: 120px;
       }
 
       @keyframes body {

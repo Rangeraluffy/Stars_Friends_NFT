@@ -40,9 +40,12 @@
     border-top: 1px solid #adc5e0;
     border-top-width: 4px;
     border-bottom: 4px solid #adc5e0;
-
     @include tablet {
-      margin-top: 0zpx;
+      margin-top: 0px;
+    }
+
+    @include iphoneX {
+      margin: 0px 20px;
     }
   }
   h1 {
@@ -127,7 +130,7 @@
     color: #111526;
 
     @include tablet {
-      font-size: 2em;
+      font-size: 1.8em;
     }
   }
 
@@ -146,7 +149,8 @@
       -webkit-font-smoothing: antialiased;
 
       @include iphoneX {
-        padding: 20px 7px;
+        padding: 20px 10px;
+        font-size: 1.5em;
       }
 
       &:hover {

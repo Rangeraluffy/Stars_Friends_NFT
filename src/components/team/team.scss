@@ -8,7 +8,7 @@
     padding: 100px 0px;
 
     @include iphoneX {
-      display: inline-block;
+      padding: 0px;
     }
   }
 
@@ -117,6 +117,10 @@
       border-bottom: 1px solid #adc5e0;
       border-bottom-width: 4px;
       padding: 15px;
+
+      @include iphoneX {
+        margin: 0px 20px;
+      }
     }
 
     h2 {
@@ -124,13 +128,13 @@
       padding-top: 10px;
       text-transform: uppercase;
 
-      @include iphoneX {
-        font-size: 2.55em;
-      }
-
       @include tablet {
         margin-top: 20px;
         font-size: 3em;
+      }
+
+      @include iphoneX {
+        font-size: 2.55em;
       }
     }
 
@@ -156,13 +160,13 @@
       font-size: 1.5em;
       padding: 10px 0;
 
-      @include iphoneX {
-        font-size: 1.5em;
-      }
-
       @include tablet {
         margin-top: 20px;
         font-size: 2.2em;
+      }
+
+      @include iphoneX {
+        font-size: 1.5em;
       }
     }
 

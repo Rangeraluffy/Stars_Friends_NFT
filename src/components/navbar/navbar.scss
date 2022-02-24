@@ -10,10 +10,6 @@
   left: 0;
   right: 0;
 
-  @include iphoneX {
-    right: 1;
-  }
-
   .navbar_container {
     align-items: center;
     justify-content: space-between;
@@ -47,6 +43,9 @@
       padding: 25px 0px;
       margin: 0px 50px;
 
+      @include iphoneX {
+        padding: 10px 0px;
+      }
       :hover {
         fill: grey;
       }

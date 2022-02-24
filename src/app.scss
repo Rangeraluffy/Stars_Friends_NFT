@@ -7,7 +7,14 @@
 }
 
 .app {
-  height: 100px;
+  overflow: hidden;
+  .background {
+    width: 100%;
+    position: fixed;
+    z-index: -1000;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .container {
@@ -15,12 +22,12 @@
   margin: auto;
 
   @include tablet {
-    width: 628px;
+    width: 100%;
     margin: auto;
   }
 
   @include iphoneX {
-    width: 375px;
+    width: 100%;
     margin: auto;
   }
 }
