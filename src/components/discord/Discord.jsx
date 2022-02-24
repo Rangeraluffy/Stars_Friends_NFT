@@ -14,9 +14,9 @@ export default function Discord() {
           <h1>Join our community</h1>
           <div className="discord_bg">
             <p>
-              Stars Friends Discord just opened on the galaxy ! If you want to
-              join the #starsfriends it’s here. Join us to get the news as soon
-              as possible and follow our latest announcements.
+              Stars Friends Discord just opened in the galaxy ! If you want to
+              join the #StarsFriends it’s here. Join us to get our latest
+              announcements.
             </p>
             <div class="btn-cont">
               <a

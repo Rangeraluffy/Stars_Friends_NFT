@@ -15,7 +15,7 @@ export default function Roadmap() {
           <div className="roadmap_content">
             <h2>Step 0 - Pre-Launch</h2>
             <p>
-              <span>1. Grow twitter and discord community : </span>Before
+              <span>1. Grow Twitter and Discord community : </span>Before
               launching our very first collection of 1’000 Stars Friends
               collectibles, we would like to grow our Twitter and Discord
               community to reach enough audience.
@@ -42,24 +42,23 @@ export default function Roadmap() {
           <div className="roadmap_content">
             <h2>Step 1 - Launch</h2>
             <p>
-              <span>1. Launch the NFTs on open sea </span>
+              <span>1. Launch the NFTs on OpenSea </span>
             </p>
             <p>
               <span>
                 2. Communicate our goals and ambition through the selling of
                 these NFTs :{" "}
               </span>
-              On the ambition section of the website you will understand why we
-              started this NFT project. We are Stars Friends, we are lucky
-              stars. Before the compass, before maps, stars were used as a
-              guidance. We would like to keep this spirit and create Stars that
-              will guide people, and be their lucky star. That is why we will
-              donate a part of the revenues from the sales of our NFTs to
-              charity. At first, we would like to focus on donating to charity
-              in Africa for education, in order to help, to guide, those
-              children in poor countries towards education hoping to guide them
-              towards a better future. We are aiming to diversify the donation
-              in the future, we’ll be very open to any suggestions.
+              We are Stars Friends, we are lucky stars. Before the compass,
+              before maps, stars were used as a guidance. We would like to keep
+              this spirit and create Stars that will guide people, and be their
+              lucky star. That is why we will donate a part of the revenues from
+              the sales of our NFTs to charity. At first, we would like to focus
+              on donating to charity in Africa for education, in order to help,
+              to guide, those children in poor countries towards education
+              hoping to guide them towards a better future. We are aiming to
+              diversify the donation in the future, we’ll be very open to any
+              suggestions.
             </p>
           </div>
           <div className="roadmap_content">
@@ -78,23 +77,28 @@ export default function Roadmap() {
           <div className="roadmap_content">
             <h2>Step 3 - FUTURE </h2>
             <p>
-              <span>1. Give-away : merch / ETH, :</span> Our ambition is through
-              a collaboration with other projects to make our NFTs visible in
-              the sky’s metaverse. The details and collaboration are still to be
+              <span>1. Give-away : merch / ETH :</span> We would like to reward
+              you for participating to such a great projet with merchandising
+              and gifts through give-aways
+            </p>
+            <p>
+              <span>2. Collaboration for P2E :</span> Our ambition is through a
+              collaboration with other projects to make our NFTs visible in the
+              sky’s metaverse. The details and collaboration are still to be
               determined, this is one big thing we would like to do in the
               future.
             </p>
             <p>
-              <span>2. Collaborate with other artists :</span> As the collection
+              <span>3. Collaborate with other artists :</span> As the collection
               grows, we would like to partner with famous artists to have unique
               collections that you could buy.
             </p>
             <p>
-              <span>3. Charity :</span> Keep on sharing donations to charity,
+              <span>4. Charity :</span> Keep on sharing donations to charity,
               this is one big thing of this project of helping others.
             </p>
             <p>
-              <span>4. Loyalty program :</span> We would like to build a loyalty
+              <span>5. Loyalty program :</span> We would like to build a loyalty
               program for NFTs holders. The more you have NFTs or the longer
               you’ll hold them in your pocket will make you eligible for the
               loyalty rewards (we are still setting up the levels, and rewards,

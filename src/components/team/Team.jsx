@@ -19,10 +19,11 @@ export default function Team() {
               </div>
               <div className="info">
                 <h2>Alexandre</h2>
-                <h3>FOUNDER / ENGINEER / DESIGNER </h3>
+                <h3>FOUNDER / WEB DEV / DESIGNER </h3>
                 <p>
-                  Web2 front developer jumping into the Web3 world. Number #1
-                  fan of MariKage. Addicted to Japan, Manga and video games.
+                  Web2 Web dev jumping into the Web3 world. Number #1 fan of
+                  Marikage. Addicted to Japan, Manga and video games. I hope I
+                  would be still alive when Oda finishes One-Piece.
                 </p>
               </div>
             </div>
