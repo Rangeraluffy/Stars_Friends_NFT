@@ -4,8 +4,8 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  color: #111526;
-  background-color: $background;
+  color: white;
+  background-color: #141948;
   position: fixed;
   left: 0;
   right: 0;
@@ -16,12 +16,17 @@
     padding: 20px 16px;
     font-size: 2em;
     display: flex;
+
+    @include iphoneX {
+      display: block;
+    }
   }
 
   .navbar_title {
     h1 {
       text-transform: uppercase;
       text-align: center;
+      cursor: pointer;
     }
   }
 
@@ -33,6 +38,10 @@
     .navbar_link_logo {
       padding: 25px 0px;
       margin: 0px 50px;
+
+      :hover {
+        fill: grey;
+      }
     }
   }
 }

@@ -1,26 +1,20 @@
-$background: #cdc3a5;
+$background: #f6f3eb;
 $width: 768px;
-$width_computer: 1024px;
-$width_phone: 1380px;
-$width_mobileS: 425px;
+$computer: 1080px;
+$iphoneX: 375px;
 
-@mixin mobile {
+@mixin tablet {
   @media (max-width: #{$width}) {
     @content;
   }
 }
 @mixin computer {
-  @media (max-width: #{$width_computer}) {
+  @media (max-width: #{$computer}) {
     @content;
   }
 }
-@mixin tablet {
-  @media (max-width: #{$width_phone}) {
-    @content;
-  }
-}
-@mixin mobileS {
-  @media (max-width: #{$width_mobileS}) {
+@mixin iphoneX {
+  @media (max-width: #{$iphoneX}) {
     @content;
   }
 }

@@ -13,7 +13,7 @@ export default function About() {
             </div>
             <div className="about_content">
               <h1 className="title">What is Stars Friends ?</h1>
-              <p className="sub_title">
+              <p>
                 The StarsVerse is a collection of 7,777 generative Stars Friends
                 with hundreds of elements inspired by different feelings in the
                 real world with custom skins inspired by the world of video

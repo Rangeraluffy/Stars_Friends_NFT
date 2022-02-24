@@ -6,20 +6,39 @@
   .roadmap_bg {
     background-color: $background;
     padding: 100px 0px;
+
+    @include iphoneX {
+      display: inline-block;
+    }
+
+    @include tablet {
+      width: 100%;
+      margin-bottom: -7px;
+      margin-top: -7px;
+    }
   }
 
   .road_bg_top {
     height: 138px;
     width: 100%;
-    background-repeat: repeat-x;
-    background-position: 50% center;
     margin-bottom: -5px;
+
+    @include tablet {
+      height: 70px;
+      margin-bottom: -7px;
+      margin-top: -7px;
+    }
+
+    @include iphoneX {
+      height: auto;
+      width: auto;
+      margin-bottom: -10px;
+    }
   }
   h1 {
     font-size: 7em;
     line-height: calc(20px + 20vh);
     color: #111526;
-    font-family: "Sacramento", cursive;
     text-align: center;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
@@ -83,25 +102,32 @@
 
   .roadmap_content {
     text-align: justify;
-    margin: 100px 0px 0px 0px;
-    background: linear-gradient(180deg, rgba(31, 48, 101, 0) 0%, #a0977c 100%);
+    border-top: 1px solid #adc5e0;
+    border-top-width: 4px;
     padding: 50px;
-    border-radius: 50px;
     color: #111526;
 
     h2 {
       font-weight: 700;
       text-transform: uppercase;
-      font-size: 44px;
+      font-size: 3em;
       letter-spacing: 1px;
       line-height: 1.3em;
       margin: auto;
       text-align: center;
+
+      @include tablet {
+        font-size: 3.5em;
+      }
     }
     p {
       padding: 30px;
-      font-size: 1.3em;
+      font-size: 1.5em;
       line-height: 40px;
+
+      @include tablet {
+        font-size: 2em;
+      }
 
       span {
         font-weight: 800;

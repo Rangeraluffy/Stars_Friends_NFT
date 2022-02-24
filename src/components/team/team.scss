@@ -6,20 +6,33 @@
   .background_global {
     background-color: $background;
     padding: 100px 0px;
+
+    @include iphoneX {
+      display: inline-block;
+    }
   }
 
   .team_bg_top {
     height: 138px;
     width: 100%;
-    background-repeat: repeat-x;
-    background-position: 50% center;
     margin-bottom: -5px;
+
+    @include tablet {
+      height: 70px;
+      margin-bottom: -7px;
+      margin-top: -7px;
+    }
+
+    @include iphoneX {
+      height: auto;
+      margin-bottom: -5px;
+      width: auto;
+    }
   }
 
   h1 {
     font-size: 7em;
     line-height: calc(20px + 20vh);
-    font-family: "Sacramento", cursive;
     text-align: center;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
@@ -84,19 +97,21 @@
 
   .cards {
     display: flex;
-    padding-top: 70px;
+    padding-top: 20px;
     color: #111526;
+
+    @include tablet {
+      display: block;
+    }
 
     .card {
       margin: 20px;
-      border-radius: 10px;
       overflow: hidden;
       text-align: center;
-      background: linear-gradient(
-        180deg,
-        rgba(31, 48, 101, 0) 0%,
-        #a0977c 100%
-      );
+      border-top: 1px solid #adc5e0;
+      border-top-width: 4px;
+      border-bottom: 1px solid #adc5e0;
+      border-bottom-width: 4px;
       padding: 15px;
     }
 
@@ -104,6 +119,10 @@
       font-size: 2em;
       padding-top: 10px;
       text-transform: uppercase;
+
+      @include tablet {
+        font-size: 3em;
+      }
     }
 
     .pic {
@@ -115,17 +134,32 @@
         border-radius: 50%;
         margin-top: -90px;
         position: relative;
+
+        @include tablet {
+          height: 300px;
+          width: 300px;
+          border-radius: 50%;
+        }
       }
     }
 
     .info h3 {
       font-size: 1.5em;
       padding: 10px 0;
+
+      @include tablet {
+        font-size: 2.5em;
+      }
     }
 
     .info p {
       font-size: 1.2em;
       padding: 10px 20px;
+      line-height: 30px;
+
+      @include tablet {
+        font-size: 2em;
+      }
     }
   }
 }

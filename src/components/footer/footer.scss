@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .backg {
   position: absolute;
   height: 500px;
@@ -6,6 +8,10 @@
   background-color: rgba(0, 0, 0, 0.1);
   transform: scale(0.7);
   z-index: 1005;
+
+  @include tablet {
+    display: none;
+  }
 
   .planet {
     height: 200px;
