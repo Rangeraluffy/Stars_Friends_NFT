@@ -74,6 +74,7 @@
       border-bottom: 1px solid $cloud-text;
       border-bottom-width: 4px;
       padding: 15px;
+      width: 50%;
 
       @include iphoneX {
         margin: 0px 20px;
