@@ -2,8 +2,121 @@
 
 .footer {
   h1 {
+    font-size: 7em;
+    line-height: calc(20px + 20vh);
+    color: $color-text;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+    animation: body 2s infinite alternate-reverse;
+
+    @include tablet {
+      font-size: 6em;
+    }
+
+    @include iphoneX {
+      font-size: 5em;
+    }
+  }
+
+  .discord_bg_top {
+    height: 138px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: 50% center;
+    margin-bottom: -5px;
+
+    @include tablet {
+      height: 50px;
+      margin-bottom: -7px;
+      margin-top: -7px;
+    }
+
+    @include iphoneX {
+      height: auto;
+      margin-bottom: -5px;
+      margin-top: -7px;
+      width: auto;
+    }
+  }
+
+  .background_global {
+    background-color: $background;
+
+    @include iphoneX {
+      display: inline-block;
+      padding: 0px;
+    }
+  }
+
+  h2 {
+    font-size: 2em;
     text-align: center;
     color: white;
+    padding: 50px 0px;
+  }
+
+  .content {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+
+    details {
+      padding-bottom: 40px;
+    }
+
+    .faq_answer {
+      font-size: 1.5em;
+      padding-left: 15px;
+
+      @include iphoneX {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  summary {
+    font-size: 1.8em;
+    font-weight: 600;
+    background-color: $background;
+    color: #111526;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+
+    @include iphoneX {
+      font-size: 1.5em;
+    }
+  }
+  details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details[open] summary ~ * {
+    animation: sweep 0.7s ease-in-out;
+  }
+  @keyframes sweep {
+    0% {
+      opacity: 0;
+      margin-top: -10px;
+    }
+    100% {
+      opacity: 1;
+      margin-top: 0px;
+    }
   }
 }
 
